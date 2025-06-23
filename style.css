@@ -2,28 +2,65 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.tabela-1{
+.container-tabela1{
    border-collapse: collapse;
    margin: 50px auto 50px auto;
 }
 
 table, th, td {
+    border: 1px rgb(0, 0, 0) solid;
+}
+
+.container-tabela1 th, .container-tabela1 td {
     border: 2px gray solid;
 }
 
-td{
+.container-tabela1 td{
     padding: 5px 10px 5px 10px;
 }
-
 
 .container-tabela-2{
     border-collapse: collapse;
     margin: 50px auto 50px auto;
 }
+
  .container-tabela-2 th{
     background-color: rgba(229, 152, 164, 0.629);
  }
 
- .linhas{
-    border: 2px solid black;
+.container-tabela-2 th, .container-tabela-2 td {
+    border: 2px gray solid;
+}
+
+ .container-tabela3{
+    background-color: rgb(235, 217, 189);
+    border-collapse: collapse;
+    margin: 50px auto 50px auto;
  }
+
+ .container-tab4{
+    border-collapse: collapse;
+    margin: 40px auto 40px auto;
+ }
+
+ .container-tab4 th{
+    background-color: rgba(152, 201, 232, 0.726);
+ }
+
+ .th-titulo{
+    font-size: 20px;
+ }
+
+ .tab-laranja{
+    background-color: rgb(235, 217, 189);
+    margin: 0 auto 100px auto;
+    border-collapse: collapse;
+ }
+
+ .tab-laranja td{
+    width: 120px;
+    height: 100px;
+    border: 10px white solid;
+ }
+
+
